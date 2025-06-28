@@ -1,0 +1,126 @@
+{
+    "Kaelin": {
+        "name": "Kaelin the Firehand",
+        "position": [
+            5,
+            5
+        ],
+        "hp": 42,
+        "max_hp": 42,
+        "ac": 13,
+        "actions": [
+            {
+                "type": "MeleeAttack",
+                "name": "Longsword Slash",
+                "action_type": "Attack",
+                "cost": "A",
+                "to_hit_bonus": 5,
+                "damage_bonus": 3,
+                "damage_dice": "1d8",
+                "damage_type": "slashing"
+            },
+            {
+                "type": "Spell",
+                "name": "Fireball",
+                "action_type": "Spell",
+                "cost": "A",
+                "level": 3,
+                "school": "Evocation",
+                "components": [
+                    "V",
+                    "S",
+                    "M"
+                ],
+                "range": 150,
+                "form": "kreis",
+                "size": 5,
+                "save_type": "DEX",
+                "effect": "Fire damage"
+            },
+            {
+                "type": "Grapple",
+                "name": "Grapple Attempt",
+                "action_type": "Grapple",
+                "cost": "A"
+            }
+        ],
+        "effects": [
+            "Blessed"
+        ],
+        "saves": {
+            "DEX": 2,
+            "CON": 1,
+            "WIS": 3,
+            "INT": 4,
+            "STR": 0,
+            "CHA": 0
+        },
+        "move_speed": 30,
+        "spell_slots": {
+            "1": 2,
+            "2": 1
+        }
+    },
+    "Peter": {
+        "name": "Peter the Barbarian",
+        "position": [
+            15,
+            25
+        ],
+        "hp": 42,
+        "max_hp": 42,
+        "ac": 13,
+        "actions": [
+            {
+                "type": "MeleeAttack",
+                "name": "Longsword Slash",
+                "action_type": "Attack",
+                "cost": "A",
+                "to_hit_bonus": 5,
+                "damage_bonus": 3,
+                "damage_dice": "1d8",
+                "damage_type": "slashing"
+            },
+            {
+                "type": "Spell",
+                "name": "Fireball",
+                "action_type": "Spell",
+                "cost": "A",
+                "level": 3,
+                "school": "Evocation",
+                "components": [
+                    "V",
+                    "S",
+                    "M"
+                ],
+                "range": 150,
+                "form": "kreis",
+                "size": 5,
+                "save_type": "DEX",
+                "effect": "Fire damage"
+            },
+            {
+                "type": "Grapple",
+                "name": "Grapple Attempt",
+                "action_type": "Grapple",
+                "cost": "A"
+            }
+        ],
+        "effects": [
+            "Blessed"
+        ],
+        "saves": {
+            "DEX": 2,
+            "CON": 1,
+            "WIS": 3,
+            "INT": 4,
+            "STR": 0,
+            "CHA": 0
+        },
+        "move_speed": 30,
+        "spell_slots": {
+            "1": 2,
+            "2": 1
+        }
+    }
+}
