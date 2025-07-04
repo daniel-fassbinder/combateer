@@ -8,6 +8,7 @@
         "hp": 42,
         "max_hp": 42,
         "ac": 13,
+        "reach" : 1,
         "actions": [
             {
                 "type": "MeleeAttack",
@@ -59,7 +60,9 @@
         "spell_slots": {
             "1": 2,
             "2": 1
-        }
+        },
+        "is_enemy" : "False"
+
     },
     "Peter": {
         "name": "Peter the Barbarian",
@@ -70,6 +73,7 @@
         "hp": 42,
         "max_hp": 42,
         "ac": 13,
+        "reach" : 1,
         "actions": [
             {
                 "type": "MeleeAttack",
@@ -121,6 +125,7 @@
         "spell_slots": {
             "1": 2,
             "2": 1
-        }
+        },
+        "is_enemy" : "True"
     }
 }

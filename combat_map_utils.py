@@ -1,5 +1,7 @@
 from typing import List, Tuple
 import math
+from collections import deque, defaultdict
+from typing import Dict, List, Tuple, Set
 
 Coord = Tuple[int, int]
 
@@ -39,3 +41,6 @@ def visualize_area_on_board(area_coords: List[Tuple[int, int]], board_size: int 
 
     for row in board:
         print(" ".join(row))
+
+
+
